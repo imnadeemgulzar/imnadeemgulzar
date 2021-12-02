@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(/images/images1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  background-color: midnightblue;
+  justify-content: space-between;
+}
+.heading {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  padding: 0.4rem 3rem;
+  font-weight: 100;
+  color: #fd4;
+  word-spacing: 1rem;
+}
+.navbar {
+  display: flex;
+  padding-right: 2rem;
+}
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.item {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.4rem 0.8rem;
+  text-decoration: none;
+  color: #fd6;
+}
+.description {
+  margin-top: 6rem;
+}
+.description-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.sub-heading {
+  font-size: 2.8rem;
+  font-weight: 100;
+  padding: 0.8rem 2.4rem;
+  color: #fd8;
+}
+.para {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.3rem 8rem;
+  color: #fd8;
+}
+.btn {
+  font-size: 1.3rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: 0.4rem;
+  border: none;
+  margin-left: 20rem;
+  margin-top: 1rem;
+  background-color: #fd4;
+  color: darkblue;
+}
+.description-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+.primary-heading {
+  font-size: 1.8rem;
+  /* letter-spacing: 0.1rem; */
+  padding: 1.3rem 2rem;
+  color: #fd4;
+  font-weight: 100;
+}
+.faculities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faculty {
+  font-size: 1.2rem;
+  padding: 1rem 1.4rem;
+  background-color: darkslategrey;
+  margin-left: 0.5rem;
+  border-radius: 0.4rem;
+  color: #fd8;
+  text-transform: capitalize;
+}
